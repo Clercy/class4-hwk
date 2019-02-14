@@ -1,5 +1,6 @@
 # class4-hwk
 #-------------------------------------------------------------------------
+#-------------------------------------------------------------------------
 #Successful recipe to this point
 FROM ubuntu:16.04
 MAINTAINER Luigi Clerici <Clercy.github.io>
@@ -22,6 +23,7 @@ CMD ["python3", "./our_csv_parser_My_Homework.py"]
 #  Install: pip (python page installer) for the corresponding Python 3
 #  Use pip to install: numpy, pandas
 #
+#-------------------------------------------------------------------------
 #-------------------------------------------------------------------------
 
 #Last build before successful RUN
@@ -70,3 +72,13 @@ $ docker run -i class4-python-image
 [0.02731, 0.0, 7.07, 0, 0.469, 6.421, 78.9, 4.9671, 2, 242.0, 17.8, 396.9, 9.14, 21.6]
 56.235315
 117.35289232650675
+
+#Images
+lcler@LAPTOP-D2T6EOO0 MINGW64 ~/Desktop/class4-hwk (master)
+$ docker image ls
+REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
+class4-python-image   latest              b34e337a9fc0        34 minutes ago      572MB
+<none>                <none>              1ab809715151        37 minutes ago      572MB
+<none>                <none>              a358312dedf7        43 minutes ago      572MB
+ubuntu                16.04               7e87e2b3bf7a        3 weeks ago         117MB
+hello-world           latest              fce289e99eb9        6 weeks ago         1.84kB

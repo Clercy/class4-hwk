@@ -1,4 +1,17 @@
 # class4-hwk
+
+#Continuous Integration Summary
+Continuous Integration (CI)
+
+It is the practice in which developers integrate their code into a shared
+repository on a frequent basis (preferably multiple times a day) at which
+time an automated process performs the build and tests the code ensuring
+it's stability and flagging issues if they arise.  This practice allows
+the team/project to detect issues sooner and reduce time debugging later.  
+Github has multiple links referring to software for this including Cirrus CI,
+Semaphore, Buddy, WIP, CircleCI, Travis CI, Google Cloud Build amongst others.
+
+
 #-------------------------------------------------------------------------
 #-------------------------------------------------------------------------
 #Successful recipe to this point
